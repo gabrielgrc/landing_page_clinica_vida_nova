@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clínica Vida Nova</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Clínica Vida Nova</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Conteúdo principal -->
+    <main>
+
+        <!-- Seção inicial -->
+        <section id="inicio">
+            <h2>Bem-vindo à Clínica Vida Nova</h2>
+
+            <p>
+                Na Clínica Vida Nova, oferecemos atendimento de qualidade
+                para cuidar da sua saúde de forma completa, humanizada e
+                personalizada.
+            </p>
+
+            <img
+                src="img/clinica.jpeg"
+                alt="Interior da Clínica Vida Nova"
+            >
+        </section>
+
+
+        <!-- Seção de serviços -->
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+
+            <article>
+                <h3>Atendimento Médico</h3>
+
+                <img
+                    src="img/atendimento_medico.jpeg"
+                    alt="Profissional realizando atendimento médico"
+                >
+
+                <p>
+                    Consultas médicas com profissionais qualificados,
+                    oferecendo atendimento personalizado para diferentes
+                    necessidades de saúde.
+                </p>
+            </article>
+
+
+            <article>
+                <h3>Exames Laboratoriais e de Imagem</h3>
+
+                <img
+                    src="img/exames.jpeg"
+                    alt="Equipamentos utilizados para realização de exames"
+                >
+
+                <p>
+                    Realização de exames laboratoriais e de imagem,
+                    contribuindo para diagnósticos mais precisos e
+                    acompanhamento da saúde dos pacientes.
+                </p>
+            </article>
+
+
+            <article>
+                <h3>Aconselhamento Nutricional</h3>
+
+                <img
+                    src="img/nutricao.jpeg"
+                    alt="Nutricionista realizando atendimento"
+                >
+
+                <p>
+                    Orientação nutricional personalizada para auxiliar
+                    nossos pacientes na construção de hábitos alimentares
+                    mais saudáveis.
+                </p>
+            </article>
+        </section>
+
+
+        <!-- Seção da equipe -->
+        <section id="equipe">
+            <h2>Nossa Equipe</h2>
+
+            <article>
+                <img
+                    src="img/medico.jpeg"
+                    alt="Foto do Dr. Gabriel Almeida"
+                >
+
+                <h3>Dr. Gabriel Almeida</h3>
+
+                <p>Clínico Geral</p>
+
+                <p>
+                    Médico especializado em atendimento clínico e
+                    acompanhamento geral dos pacientes.
+                </p>
+            </article>
+
+
+            <article>
+                <img
+                    src="img/nutricionista.jpeg"
+                    alt="Foto da Dra. Mariana Costa"
+                >
+
+                <h3>Dra. Mariana Costa</h3>
+
+                <p>Nutricionista</p>
+
+                <p>
+                    Especialista em nutrição e planejamento alimentar
+                    personalizado.
+                </p>
+            </article>
+
+
+            <article>
+                <img
+                    src="img/radiologista.jpeg"
+                    alt="Foto do Dr. Rafael Martins"
+                >
+
+                <h3>Dr. Rafael Martins</h3>
+
+                <p>Radiologista</p>
+
+                <p>
+                    Profissional especializado na realização e interpretação
+                    de exames de imagem.
+                </p>
+            </article>
+        </section>
+
+
+        <!-- Seção de contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+
+            <p>
+                Preencha o formulário abaixo para entrar em contato
+                conosco.
+            </p>
+
+            <form>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        required
+                    >
+                </div>
+
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+                </div>
+
+
+                <div>
+                    <label for="cidade">Cidade:</label>
+                    <input
+                        type="text"
+                        id="cidade"
+                        name="cidade"
+                        required
+                    >
+                </div>
+
+
+                <div>
+                    <label for="estado">Estado:</label>
+
+                    <select id="estado" name="estado" required>
+                        <option value="">Selecione seu estado</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </div>
+
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Clínica Vida Nova. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
